@@ -9,10 +9,7 @@ import org.testng.annotations.BeforeMethod;
 public class Basetest implements Constant{
 	private static final String TestName = null;
 	public WebDriver driver;
-	static
-	{
-		System.setProperty(key,value);	
-	}
+	
 	
 	@BeforeMethod
 	public void openapp()
